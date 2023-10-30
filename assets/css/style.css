@@ -145,7 +145,12 @@ main {
     height: 90vw;
     width: 90vw;
     margin-bottom: 20px;
+    /* makes the square image into a circle */
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
 }
+
 
 /* Footer */
 #social-networks {
