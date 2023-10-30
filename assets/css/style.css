@@ -92,7 +92,11 @@ nav {
 main {
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
+    /* Add margin at the top to prevent content from being covered by the header */
     margin-top: 47px;
+    /* Enable flex properties for child elements */
+    display: flex;
+    flex-direction: column;
 }
 
 /* Hero section */
@@ -180,7 +184,7 @@ main {
     background-color: rgba(0, 0, 0, .6);
     padding: 15px;
     text-align: center;
-    /* This will not wrap on screens of less than 400px widw. 
+    /* This will not wrap on screens of less than 400px wide. 
     Each div will expand to fill the available space on its row */
     flex-basis: 200px;
     flex-grow: 1;
@@ -205,17 +209,8 @@ main {
     line-height: 0;
 }
 
-/* Signup page */
-main {
-    /* Enlarge main element to push footer down*/
-    flex: 1 0 auto;
-    /* Add margin at the top to prevent content from being covered by the header */
-    margin-top: 47px;
-    /* Enable flex properties for child elements */
-    display: flex;
-    flex-direction: column;
-}
-    /* Form */
+/* Signup page. Form */
+
 #signup {
     background-image: url('../images/signup-image.webp');
     background-size: cover;
