@@ -240,6 +240,7 @@ main {
 
 /* Large devices (laptops and desktops, 1200px and up) */
 @media screen and (min-width: 1200px) {
+    /* Reason section */
     #benefits {
         display: flex;
         flex-direction: row;
