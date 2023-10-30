@@ -141,7 +141,7 @@ main {
 }
 /* circle image */
 #circle-cover-bg {
-    background-image: url('../images/reasons-image.webp') no-repeat top center / cover;
+    background: url('../images/reasons-image.webp') no-repeat top center / cover;
     height: 90vw;
     width: 90vw;
     margin-bottom: 20px;
